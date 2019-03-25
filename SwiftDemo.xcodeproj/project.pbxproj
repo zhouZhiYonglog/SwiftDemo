@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		219C7F2D219171FC004CCB69 /* MacroFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219C7F2C219171FC004CCB69 /* MacroFile.swift */; };
+		219C7F302191781F004CCB69 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219C7F2E2191781F004CCB69 /* MyTableViewCell.swift */; };
+		219C7F312191781F004CCB69 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219C7F2F2191781F004CCB69 /* MyTableViewCell.xib */; };
+		219C7F3521918794004CCB69 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219C7F3421918794004CCB69 /* SecondViewController.m */; };
+		21DF452121941B820027E4EE /* BaseUrl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21DF452021941B820027E4EE /* BaseUrl.plist */; };
 		21E06D61207B451A0011D46C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E06D60207B451A0011D46C /* AppDelegate.swift */; };
 		21E06D63207B451A0011D46C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E06D62207B451A0011D46C /* ViewController.swift */; };
 		21E06D66207B451A0011D46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E06D64207B451A0011D46C /* Main.storyboard */; };
@@ -15,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		219C7F2C219171FC004CCB69 /* MacroFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroFile.swift; sourceTree = "<group>"; };
+		219C7F2E2191781F004CCB69 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		219C7F2F2191781F004CCB69 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		219C7F3221918794004CCB69 /* SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		219C7F3321918794004CCB69 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		219C7F3421918794004CCB69 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		21DF452021941B820027E4EE /* BaseUrl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BaseUrl.plist; sourceTree = "<group>"; };
 		21E06D5D207B451A0011D46C /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E06D60207B451A0011D46C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21E06D62207B451A0011D46C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +66,19 @@
 		21E06D5F207B451A0011D46C /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				219C7F2C219171FC004CCB69 /* MacroFile.swift */,
 				21E06D60207B451A0011D46C /* AppDelegate.swift */,
+				219C7F3321918794004CCB69 /* SecondViewController.h */,
+				219C7F3421918794004CCB69 /* SecondViewController.m */,
 				21E06D62207B451A0011D46C /* ViewController.swift */,
+				219C7F2E2191781F004CCB69 /* MyTableViewCell.swift */,
+				219C7F2F2191781F004CCB69 /* MyTableViewCell.xib */,
+				21DF452021941B820027E4EE /* BaseUrl.plist */,
 				21E06D64207B451A0011D46C /* Main.storyboard */,
 				21E06D67207B451C0011D46C /* Assets.xcassets */,
 				21E06D69207B451C0011D46C /* LaunchScreen.storyboard */,
 				21E06D6C207B451C0011D46C /* Info.plist */,
+				219C7F3221918794004CCB69 /* SwiftDemo-Bridging-Header.h */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -96,6 +115,7 @@
 				TargetAttributes = {
 					21E06D5C207B451A0011D46C = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -123,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				21E06D6B207B451C0011D46C /* LaunchScreen.storyboard in Resources */,
+				21DF452121941B820027E4EE /* BaseUrl.plist in Resources */,
+				219C7F312191781F004CCB69 /* MyTableViewCell.xib in Resources */,
 				21E06D68207B451C0011D46C /* Assets.xcassets in Resources */,
 				21E06D66207B451A0011D46C /* Main.storyboard in Resources */,
 			);
@@ -135,7 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219C7F3521918794004CCB69 /* SecondViewController.m in Sources */,
 				21E06D63207B451A0011D46C /* ViewController.swift in Sources */,
+				219C7F302191781F004CCB69 /* MyTableViewCell.swift in Sources */,
+				219C7F2D219171FC004CCB69 /* MacroFile.swift in Sources */,
 				21E06D61207B451A0011D46C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,6 +314,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhiyong.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +334,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhiyong.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

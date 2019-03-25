@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppEnvironment</key>
+	<integer>1</integer>
+	<key>README</key>
+	<string>AppEnvironment为App接口环境。参数说明：0为测试环境、1为UAT环境、2为正式线上环境！！！！</string>
+	<key>Test</key>
+	<dict>
+		<key>ShopMallURL</key>
+		<string>http://183.134.76.135:9099</string>
+		<key>MagazineBaseURL</key>
+		<string>http://183.134.79.67:9098</string>
+		<key>UserCenterBaseURL</key>
+		<string>http://183.134.79.136:8081</string>
+		<key>UploadPicBaseUrl</key>
+		<string>http://183.134.79.136:8081/api/upload/upload</string>
+		<key>New item</key>
+		<string>----------------------分割线--以上是项目基链接；以下是项目个别页面用到的-------------------------</string>
+		<key>addressManageUrl</key>
+		<string>http://183.134.79.136:82/addressList</string>
+		<key>shopOrderListUrl</key>
+		<string>http://183.134.79.136:82/orderList</string>
+		<key>shopOrderDetailUrl</key>
+		<string>http://183.134.79.136:82/orderList/orderDetail?orderId=</string>
+		<key>paySuccessUrl</key>
+		<string>http://183.134.79.136:82/payment/success?orderId=</string>
+		<key>payErrorUrl</key>
+		<string>http://183.134.79.136:82/payment/fail?orderId=</string>
+		<key>shopCartUrl</key>
+		<string>http://183.134.79.136:82/cart</string>
+		<key>shopCenterUrl</key>
+		<string>http://183.134.79.67:19090</string>
+		<key>shopClassUrl</key>
+		<string>http://183.134.79.136:82/</string>
+	</dict>
+	<key>UAT</key>
+	<dict>
+		<key>ShopMallURL</key>
+		<string>https://partner-mng-api.gtdreamlife.com</string>
+		<key>MagazineBaseURL</key>
+		<string>https://partner-magazine.gtdreamlife.com</string>
+		<key>UserCenterBaseURL</key>
+		<string>https://partner-sso.gtdreamlife.com</string>
+		<key>UploadPicBaseUrl</key>
+		<string>https://partner-sso.gtdreamlife.com/api/upload/upload</string>
+		<key>New item</key>
+		<string>----------------------分割线--以上是项目基链接；以下是项目个别页面用到的-------------------------</string>
+		<key>addressManageUrl</key>
+		<string>https://partner-shop.gtdreamlife.com/addressList</string>
+		<key>shopOrderListUrl</key>
+		<string>https://partner-shop.gtdreamlife.com/orderList</string>
+		<key>shopOrderDetailUrl</key>
+		<string>https://partner-shop.gtdreamlife.com/orderList/orderDetail?orderId=</string>
+		<key>paySuccessUrl</key>
+		<string>https://partner-shop.gtdreamlife.com/payment/success?orderId=</string>
+		<key>payErrorUrl</key>
+		<string>https://partner-shop.gtdreamlife.com/payment/fail?orderId=</string>
+		<key>shopCartUrl</key>
+		<string>https://partner-shop.gtdreamlife.com/cart</string>
+		<key>shopCenterUrl</key>
+		<string>https://partner-api.gtdreamlife.com/</string>
+		<key>shopClassUrl</key>
+		<string>https://partner-shop.gtdreamlife.com/</string>
+	</dict>
+	<key>Formal</key>
+	<dict>
+		<key>ShopMallURL</key>
+		<string>https://ideallife-mng-api.gtdreamlife.com</string>
+		<key>MagazineBaseURL</key>
+		<string>https://ideallife-magazine.gtdreamlife.com</string>
+		<key>UserCenterBaseURL</key>
+		<string>https://ideallife-sso.gtdreamlife.com</string>
+		<key>UploadPicBaseUrl</key>
+		<string>https://ideallife-sso.gtdreamlife.com/api/upload/upload</string>
+		<key>New item</key>
+		<string>----------------------分割线--以上是项目基链接；以下是项目个别页面用到的-------------------------</string>
+		<key>addressManageUrl</key>
+		<string>https://ideallife-shop.gtdreamlife.com/addressList</string>
+		<key>shopOrderListUrl</key>
+		<string>https://ideallife-shop.gtdreamlife.com/orderList</string>
+		<key>shopOrderDetailUrl</key>
+		<string>https://ideallife-shop.gtdreamlife.com/orderList/orderDetail?orderId=</string>
+		<key>paySuccessUrl</key>
+		<string>https://ideallife-shop.gtdreamlife.com/payment/success?orderId=</string>
+		<key>payErrorUrl</key>
+		<string>https://ideallife-shop.gtdreamlife.com/payment/fail?orderId=</string>
+		<key>shopCartUrl</key>
+		<string>https://ideallife-shop.gtdreamlife.com/cart</string>
+		<key>shopCenterUrl</key>
+		<string>https://ideallife-api.gtdreamlife.com/</string>
+		<key>shopClassUrl</key>
+		<string>https://ideallife-shop.gtdreamlife.com/</string>
+	</dict>
+</dict>
+</plist>
